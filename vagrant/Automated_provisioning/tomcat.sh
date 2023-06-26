@@ -47,7 +47,7 @@ systemctl start tomcat
 systemctl enable tomcat
 
 git clone https://github.com/AmineMadani/ysj-app-local
-cd vprofile-project
+cd ysj-app-local
 mvn install
 systemctl stop tomcat
 sleep 60
