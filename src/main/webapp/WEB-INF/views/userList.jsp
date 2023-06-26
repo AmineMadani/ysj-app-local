@@ -41,12 +41,12 @@ body{
                                 <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
                                     class="icon-bar"></span><span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="${contextPath}/index">VISUAL PATH</a>
-                            <i class="brand_network"><small><small>VProfile</small></small></i>
+                            <a class="navbar-brand" href="${contextPath}/index">York St John University</a>
+                            <i class="brand_network"><small><small>YSJ</small></small></i>
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="#technologies">TECHNOLOGIES</a></li>
+                                <li><a href="#technologies">COURSES</a></li>
                                 <li><a href="#about">ABOUT</a></li>
                                 <li><a href="#contact">CONTACT</a></li>
                                 <li><a href="#">BLOG</a></li>
@@ -69,11 +69,11 @@ body{
 <!-- Header -->    
 	<div class="container">
 	<div class="table-responsive">
-	<h2 align="center"> Users List</h2> 
+	<h2 align="center"> Students List</h2> 
     <table class="table table-bordered">
         <tr>
-            <th>User Name</th>
-            <th>User Id</th>
+            <th>Student Name</th>
+            <th>Student Id</th>
         </tr>
         <c:forEach items="${users}" var="user">
       	<tr>
