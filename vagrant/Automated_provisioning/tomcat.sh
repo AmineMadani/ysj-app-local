@@ -46,7 +46,7 @@ systemctl daemon-reload
 systemctl start tomcat
 systemctl enable tomcat
 
-git clone https://github.com/AmineMadani/ysj-app-local
+git clone -b main https://github.com/AmineMadani/ysj-app-local
 cd ysj-app-local
 mvn install
 systemctl stop tomcat
